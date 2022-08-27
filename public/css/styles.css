@@ -15,7 +15,7 @@ html {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
-    background-color:#d3fafa;
+    background-color:#EAF6F6;
 }
 
 .navbar-nav  li a:hover {
@@ -42,9 +42,9 @@ html {
   color: #fff;
 }
 
-body {
+/* body {
   background-color: #EAF6F6;
-}
+} */
 
 p {
   font-size: 18px;
