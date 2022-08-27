@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+    <h1>Contact</h1>
+    <br>
+    <p> <%= contactContent %> </p>
+    <form action="mailto:xjchen01@stanford.edu.com" method="post" enctype="text/plain">
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" rows="8" cols="30"></textarea><br>
+        <input type="submit" name="">
+    </form>
+<%- include("partials/footer"); -%>
